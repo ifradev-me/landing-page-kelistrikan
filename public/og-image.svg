@@ -1,0 +1,93 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <!-- Background gradient navy -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="60%" stop-color="#13315C"/>
+      <stop offset="100%" stop-color="#061830"/>
+    </linearGradient>
+    <!-- Amber glow top-right -->
+    <radialGradient id="glow" cx="85%" cy="20%" r="40%">
+      <stop offset="0%" stop-color="#FFB81C" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFB81C" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Blueprint grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFB81C" stroke-width="0.5" opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Blueprint grid -->
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <!-- Amber glow -->
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="630" fill="#FFB81C"/>
+
+  <!-- Bottom accent strip -->
+  <rect x="0" y="600" width="1200" height="30" fill="#FFB81C" opacity="0.12"/>
+
+  <!-- Large decorative lightning bolt icon (right side, decorative) -->
+  <g transform="translate(820, 80)" opacity="0.08">
+    <path d="M120 0 L60 200 L140 200 L20 400 L100 400 L0 630 L260 230 L160 230 L220 0 Z"
+      fill="#FFB81C"/>
+  </g>
+
+  <!-- Circuit dot pattern (decorative, bottom right) -->
+  <g opacity="0.12">
+    <circle cx="1050" cy="520" r="4" fill="#FFB81C"/>
+    <circle cx="1100" cy="520" r="4" fill="#FFB81C"/>
+    <circle cx="1150" cy="520" r="4" fill="#FFB81C"/>
+    <circle cx="1050" cy="560" r="4" fill="#FFB81C"/>
+    <circle cx="1100" cy="560" r="4" fill="#FFB81C"/>
+    <line x1="1050" y1="520" x2="1100" y2="520" stroke="#FFB81C" stroke-width="2"/>
+    <line x1="1100" y1="520" x2="1150" y2="520" stroke="#FFB81C" stroke-width="2"/>
+    <line x1="1050" y1="560" x2="1100" y2="560" stroke="#FFB81C" stroke-width="2"/>
+    <line x1="1050" y1="520" x2="1050" y2="560" stroke="#FFB81C" stroke-width="2"/>
+    <line x1="1100" y1="520" x2="1100" y2="560" stroke="#FFB81C" stroke-width="2"/>
+  </g>
+
+  <!-- === CONTENT === -->
+
+  <!-- Logo badge (top left) -->
+  <rect x="60" y="52" width="54" height="54" rx="14" fill="#FFB81C"/>
+  <!-- Lightning bolt in logo -->
+  <path d="M87 62 L78 82 L86 82 L76 102 L94 78 L86 78 L95 62 Z" fill="#0B2545"/>
+
+  <!-- Brand name beside logo -->
+  <text x="128" y="74" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="22" font-weight="800" fill="white" letter-spacing="0.5">SUNAMI</text>
+  <text x="128" y="97" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="13" font-weight="600" fill="#FFB81C" letter-spacing="3">TEKNISI LISTRIK</text>
+
+  <!-- Separator line -->
+  <line x1="60" y1="135" x2="440" y2="135" stroke="#FFB81C" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Main headline -->
+  <text x="60" y="225" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="62" font-weight="800" fill="white" letter-spacing="-1">Instalasi &amp;</text>
+  <text x="60" y="305" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="62" font-weight="800" fill="white" letter-spacing="-1">Perbaikan Listrik</text>
+
+  <!-- Accent tagline -->
+  <text x="60" y="365" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="28" font-weight="700" fill="#FFB81C">Aman · Rapi · Sesuai Standar</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="415" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="19" font-weight="400" fill="rgba(255,255,255,0.80)">Pengalaman 4+ tahun · Rumah, Ruko, &amp; Gedung Bertingkat</text>
+
+  <!-- Trust badges row -->
+  <!-- Badge 1 -->
+  <rect x="60" y="450" width="190" height="42" rx="21" fill="rgba(255,184,28,0.15)" stroke="#FFB81C" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="155" y="477" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFB81C" text-anchor="middle">4+ Tahun Pengalaman</text>
+
+  <!-- Badge 2 -->
+  <rect x="268" y="450" width="190" height="42" rx="21" fill="rgba(255,184,28,0.15)" stroke="#FFB81C" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="363" y="477" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFB81C" text-anchor="middle">Standar SNI / PUIL</text>
+
+  <!-- Badge 3 -->
+  <rect x="476" y="450" width="230" height="42" rx="21" fill="rgba(255,184,28,0.15)" stroke="#FFB81C" stroke-width="1.5" stroke-opacity="0.5"/>
+  <text x="591" y="477" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="14" font-weight="600" fill="#FFB81C" text-anchor="middle">Banda Aceh &amp; Aceh Besar</text>
+
+  <!-- Phone / CTA at bottom -->
+  <text x="60" y="558" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="16" font-weight="400" fill="rgba(255,255,255,0.55)">WhatsApp:</text>
+  <text x="175" y="558" font-family="'Plus Jakarta Sans', 'Inter', system-ui, sans-serif" font-size="16" font-weight="700" fill="white">0822-2358-6495</text>
+</svg>

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rumah-baru",
+    "icon": "Home",
+    "title": "Instalasi Listrik Rumah Baru",
+    "desc": "Pemasangan instalasi lengkap rumah baru — dari MCB, kabel utama, hingga titik lampu & stop kontak.",
+    "price": ""
+  },
+  {
+    "id": "stopkontak-saklar",
+    "icon": "Plug",
+    "title": "Pemasangan Stop Kontak & Saklar",
+    "desc": "Tambah atau pindah stop kontak & saklar di posisi yang Anda inginkan, rapi dan aman.",
+    "price": "Rp 75.000 / titik"
+  },
+  {
+    "id": "lampu-kabel",
+    "icon": "Lightbulb",
+    "title": "Pemasangan Lampu & Instalasi Kabel",
+    "desc": "Pemasangan lampu plafon, downlight, hingga penarikan kabel baru di area yang Anda butuhkan.",
+    "price": "Rp 60.000 / titik"
+  },
+  {
+    "id": "panel-box",
+    "icon": "LayoutGrid",
+    "title": "Perbaikan & Pemasangan Panel Box",
+    "desc": "Pembuatan dan perbaikan panel box / MCB box untuk distribusi listrik yang aman dan tertata.",
+    "price": "Rp 250.000"
+  },
+  {
+    "id": "ruko-gedung",
+    "icon": "Building2",
+    "title": "Instalasi Listrik Ruko & Gedung",
+    "desc": "Instalasi listrik untuk ruko dan gedung bertingkat sesuai kebutuhan beban dan layout ruangan.",
+    "price": "Mulai dari Rp 3.000.000"
+  }
+]

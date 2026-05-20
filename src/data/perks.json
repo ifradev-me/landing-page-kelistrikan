@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "ShieldCheck",
+    "title": "Aman",
+    "desc": "Pengerjaan sesuai standar SNI / PUIL — minim risiko korsleting & kebakaran."
+  },
+  {
+    "icon": "Wrench",
+    "title": "Handal",
+    "desc": "4+ tahun pengalaman menangani rumah, ruko, hingga gedung bertingkat."
+  },
+  {
+    "icon": "Sparkles",
+    "title": "Rapi",
+    "desc": "Instalasi kabel & panel tertata — bukan cuma nyala, tapi enak dilihat."
+  },
+  {
+    "icon": "BadgeCheck",
+    "title": "Profesional",
+    "desc": "Datang tepat waktu, kerja cepat, bertanggung jawab penuh atas hasil."
+  }
+]

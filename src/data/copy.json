@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "tentang": "Tentang",
+    "jasa": "Daftar Jasa",
+    "kontak": "Kontak",
+    "ctaButton": "Pesan Sekarang"
+  },
+  "hero": {
+    "eyebrow": "Teknisi Listrik Banda Aceh & Aceh Besar",
+    "title": "Instalasi & Perbaikan Listrik —",
+    "titleAccent": "Aman, Rapi, Sesuai Standar",
+    "subtitle": "Pengalaman 4+ tahun menangani rumah, ruko, hingga gedung bertingkat. Pengerjaan rapi, hasil aman, sesuai standar kelistrikan SNI / PUIL.",
+    "ctaPrimary": "Pesan via WhatsApp",
+    "ctaSecondary": "Lihat Daftar Jasa",
+    "trustBadges": [
+      "4+ Tahun Pengalaman",
+      "Rumah · Ruko · Gedung",
+      "Standar SNI / PUIL"
+    ]
+  },
+  "about": {
+    "eyebrow": "Tentang Saya",
+    "title": "Halo, saya Sunami —",
+    "titleAccent": "Teknisi Listrik Anda",
+    "body": [
+      "Sudah 4 tahun lebih saya menekuni dunia instalasi dan perbaikan listrik. Saya pernah menangani proyek rumah tinggal, toko, ruko, hingga gedung bertingkat di Banda Aceh dan sekitarnya.",
+      "Bagi saya, listrik bukan sekadar nyala — tapi soal keamanan keluarga Anda, kerapian instalasi yang awet, dan kualitas kerja yang sesuai standar kelistrikan."
+    ],
+    "stats": [
+      { "value": "4+", "label": "Tahun Pengalaman" },
+      { "value": "100+", "label": "Proyek Selesai" },
+      { "value": "100%", "label": "Sesuai Standar" }
+    ]
+  },
+  "perks": {
+    "eyebrow": "Kenapa Pilih Saya",
+    "title": "Pengerjaan yang Bisa",
+    "titleAccent": "Anda Andalkan"
+  },
+  "services": {
+    "eyebrow": "Daftar Jasa",
+    "title": "Layanan Instalasi &",
+    "titleAccent": "Perbaikan Listrik",
+    "subtitle": "Pilih layanan yang Anda butuhkan, klik tombol pesan untuk diskusi langsung via WhatsApp.",
+    "emptyPriceLabel": "Hubungi untuk harga",
+    "orderButton": "Pesan"
+  },
+  "cta": {
+    "eyebrow": "Jangan Tunda",
+    "title": "Listrik Bermasalah? Jangan Tunggu",
+    "titleAccent": "Sampai Jadi Besar.",
+    "subtitle": "Korsleting kecil bisa berujung kebakaran. Hubungi sekarang — respon cepat di Banda Aceh & Aceh Besar.",
+    "button": "Chat WhatsApp Sekarang"
+  },
+  "contact": {
+    "eyebrow": "Hubungi Saya",
+    "title": "Konsultasi Gratis —",
+    "titleAccent": "Isi Form atau Langsung WA",
+    "subtitle": "Ceritakan kebutuhan listrik Anda, saya bantu rekomendasikan solusi terbaik.",
+    "form": {
+      "namaLabel": "Nama Lengkap",
+      "namaPlaceholder": "Cth. Budi Santoso",
+      "phoneLabel": "Nomor WhatsApp",
+      "phonePlaceholder": "08xxxxxxxxxx",
+      "serviceLabel": "Jenis Jasa",
+      "servicePlaceholder": "Pilih jenis jasa",
+      "serviceOther": "Lainnya / Konsultasi",
+      "alamatLabel": "Alamat Layanan",
+      "alamatPlaceholder": "Cth. Jl. Teuku Umar, Banda Aceh",
+      "pesanLabel": "Pesan / Keluhan",
+      "pesanPlaceholder": "Ceritakan singkat masalah atau kebutuhan listrik Anda...",
+      "submit": "Kirim via WhatsApp"
+    },
+    "infoTitle": "Info Kontak",
+    "areaTitle": "Area Layanan",
+    "hoursTitle": "Jam Operasional"
+  },
+  "footer": {
+    "tagline": "Solusi listrik aman, rapi, dan terpercaya untuk rumah, ruko, dan gedung Anda.",
+    "quickLinksTitle": "Tautan Cepat",
+    "contactTitle": "Kontak",
+    "credit": "Dibuat oleh ifradil, kunjungi portofolio saya di ifradil.my.id"
+  }
+}
