@@ -1,6 +1,5 @@
 import { Zap, Phone, MapPin, Clock } from "lucide-react";
-import site from "@/data/site.json";
-import copy from "@/data/copy.json";
+import { useSanity } from "@/context/SanityContext";
 
 const NAV_LINKS = [
   { href: "#tentang", labelKey: "tentang" },
@@ -9,6 +8,7 @@ const NAV_LINKS = [
 ];
 
 export function Footer() {
+  const { site, copy } = useSanity();
   const year = new Date().getFullYear();
 
   return (

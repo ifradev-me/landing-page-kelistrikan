@@ -4,8 +4,7 @@ import { Sheet } from "@/components/ui/sheet";
 import { WhatsAppButton } from "@/components/common/WhatsAppButton";
 import { useNavScrollState } from "@/hooks/useNavScrollState";
 import { cn } from "@/lib/utils";
-import site from "@/data/site.json";
-import copy from "@/data/copy.json";
+import { useSanity } from "@/context/SanityContext";
 
 const NAV_LINKS = [
   { href: "#tentang", labelKey: "tentang" },
@@ -14,6 +13,7 @@ const NAV_LINKS = [
 ];
 
 export function Navbar() {
+  const { site, copy } = useSanity();
   const scrolled = useNavScrollState(80);
   const [mobileOpen, setMobileOpen] = useState(false);
 

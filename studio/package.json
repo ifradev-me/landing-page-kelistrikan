@@ -1,0 +1,24 @@
+{
+  "name": "sunami-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Sanity Studio untuk konten landing page Sunami Teknisi Listrik",
+  "scripts": {
+    "dev": "sanity dev",
+    "start": "sanity start",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "import": "node scripts/import.js"
+  },
+  "dependencies": {
+    "@sanity/vision": "^3.99.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.62.0",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@sanity/client": "^6.22.2",
+    "dotenv": "^16.4.5"
+  }
+}

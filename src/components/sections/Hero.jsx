@@ -2,9 +2,10 @@ import { CheckCircle2, ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { WhatsAppButton } from "@/components/common/WhatsAppButton";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
-import copy from "@/data/copy.json";
+import { useSanity } from "@/context/SanityContext";
 
 export function Hero() {
+  const { copy } = useSanity();
   const ref = useGsapReveal({ stagger: 0.12, y: 32, duration: 0.8 });
 
   return (

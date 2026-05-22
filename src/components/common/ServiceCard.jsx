@@ -2,14 +2,10 @@ import { ArrowRight } from "lucide-react";
 import { Icon } from "@/lib/icons.jsx";
 import { Button } from "@/components/ui/button";
 import { openWhatsApp, buildServiceMessage } from "@/lib/whatsapp";
-import copy from "@/data/copy.json";
+import { useSanity } from "@/context/SanityContext";
 
-/**
- * Pure UI for one service. Pricing is optional — empty string falls back to
- * `copy.services.emptyPriceLabel`. Clicking "Pesan" opens WhatsApp with a
- * pre-formatted message referencing this service's title.
- */
 export function ServiceCard({ icon, title, desc, price }) {
+  const { copy } = useSanity();
   const priceLabel = price && price.trim() ? price : copy.services.emptyPriceLabel;
   const isQuoteOnly = !price || !price.trim();
 

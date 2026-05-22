@@ -1,9 +1,10 @@
 import { Zap, AlertTriangle } from "lucide-react";
 import { WhatsAppButton } from "@/components/common/WhatsAppButton";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
-import copy from "@/data/copy.json";
+import { useSanity } from "@/context/SanityContext";
 
 export function CtaBanner() {
+  const { copy } = useSanity();
   const ref = useGsapReveal({ stagger: 0.1, y: 24 });
 
   return (

@@ -8,9 +8,7 @@ import { Select } from "@/components/ui/select";
 import { Label } from "@/components/ui/label";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 import { openWhatsApp, buildContactFormMessage } from "@/lib/whatsapp";
-import copy from "@/data/copy.json";
-import site from "@/data/site.json";
-import services from "@/data/services.json";
+import { useSanity } from "@/context/SanityContext";
 
 const initialState = {
   nama: "",
@@ -21,6 +19,7 @@ const initialState = {
 };
 
 export function Contact() {
+  const { copy, site, services } = useSanity();
   const ref = useGsapReveal({ stagger: 0.08, y: 24 });
   const [form, setForm] = useState(initialState);
 

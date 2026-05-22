@@ -8,22 +8,25 @@ import { CtaBanner } from "@/components/sections/CtaBanner";
 import { Contact } from "@/components/sections/Contact";
 import { Iklan } from "@/components/sections/Iklan"
 import { FloatingWhatsApp } from "@/components/common/FloatingWhatsApp";
+import { SanityProvider } from "@/context/SanityContext";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white text-slate-900 antialiased">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Perks />
-        <Services />
-        <CtaBanner />
-        <Contact />
-      </main>
-      <Iklan />
-      <Footer />
-      <FloatingWhatsApp />
-    </div>
+    <SanityProvider>
+      <div className="min-h-screen bg-white text-slate-900 antialiased">
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Perks />
+          <Services />
+          <CtaBanner />
+          <Contact />
+        </main>
+        <Iklan />
+        <Footer />
+        <FloatingWhatsApp />
+      </div>
+    </SanityProvider>
   );
 }

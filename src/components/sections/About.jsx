@@ -2,8 +2,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Icon } from "@/lib/icons.jsx";
-import copy from "@/data/copy.json";
-import perks from "@/data/perks.json";
+import { useSanity } from "@/context/SanityContext";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -20,6 +19,7 @@ const BADGE_POSITIONS = [
 ];
 
 export function About() {
+  const { copy, perks } = useSanity();
   const sectionRef = useRef(null);
 
   useEffect(() => {

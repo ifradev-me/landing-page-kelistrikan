@@ -1,10 +1,10 @@
 import { SectionHeading } from "@/components/common/SectionHeading";
 import { ServiceCard } from "@/components/common/ServiceCard";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
-import copy from "@/data/copy.json";
-import services from "@/data/services.json";
+import { useSanity } from "@/context/SanityContext";
 
 export function Services() {
+  const { copy, services } = useSanity();
   const ref = useGsapReveal({ stagger: 0.08, y: 30 });
 
   return (

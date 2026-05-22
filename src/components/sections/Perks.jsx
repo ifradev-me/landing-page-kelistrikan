@@ -1,10 +1,10 @@
 import { SectionHeading } from "@/components/common/SectionHeading";
 import { PerkCard } from "@/components/common/PerkCard";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
-import copy from "@/data/copy.json";
-import perks from "@/data/perks.json";
+import { useSanity } from "@/context/SanityContext";
 
 export function Perks() {
+  const { copy, perks } = useSanity();
   const ref = useGsapReveal({ stagger: 0.08, y: 24 });
 
   return (
